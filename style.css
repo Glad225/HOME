@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+         
+}
+.all{
+    border: 5px solid rgb(9, 9, 49);
+    background-color: rgb(9, 9, 49);
+    border-radius: 10px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.fa-fire-flame-curved{
+    color: #FFFFFF;
+}
+.HOME{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px;
+    border: 3px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: blue;    
+}
+.activity{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border: 1px solid rgb(9, 9, 49);
+    padding:20px 20px;    
+    color: #FFFFFF;
+    background-color: rgb(9, 9, 49);
+}
+.Task{
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    background-color: rgb(9, 9, 49);
+    padding: 20px 20px;
+    gap: 10px;
+}
+#Tasks{
+    color: #FFFFFF;
+    background-color: rgb(9, 9, 49);
+    width: 200px;
+    border: 1px solid rgb(9, 9, 49);
+}
+#SubTasks{
+    margin-left: 30px;
+    padding: 8px;
+    width: 130px;
+    color: #FFFFFF;
+    background-color: rgb(9, 9, 49);
+    border: 1px solid rgb(9, 9, 49);
+    
+}
+.progress{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(9, 9, 49);
+    padding:10px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    background-color: rgb(9, 9, 49);
+}
+.pro{
+    display: flex;
+    gap: 20px;
+    padding-left: 10px;
+}
+.set{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    padding-left: 10px;
+}
+footer{
+    border: 3px solid #FFFFFF;
+    width: 20px;
+    margin: 50px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
