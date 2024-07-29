@@ -1,50 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width initial-scale1.0" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="all">
+      <header>
+        <i class="fa fa-fire-flame-curved"></i>
+      </header>
+      <main>
+        <div class="HOME"><i class="fa fa-light fa-house"></i>HOME</div>
+        <div class="activity"><i class="fa fa-thin fa-list"></i>Activity</div>
 
-        <header>
-            <i class="fa fa-fire-flame-curved"></i>
-        </header>
-        <main>
-            <div class="HOME"> <i class="fa fa-light fa-house"></i>HOME</div>
-            <div class="activity"><i class=" fa fa-thin fa-list"></i>Activity</div>
-            <div class="Task">
-                <i class=" fa fa-thin fa-list"></i>
-                <select id="Tasks">
-                    <option value="Task 1">Tasks</option>
-                    <option value="Task 2">Task 1</option>
-                    <option value="Task 2">Task 2</option>
-
-                </select>
+        <!-- styling for tasks -->
+        <div class="taskContainer">
+          <div class="activity flex">
+            <div> 
+                <!-- contains task and task icon -->
+              <i class="fa fa-thin fa-list"></i>
+              <span> Task </span>
             </div>
-            <div>
-                <select id="SubTasks">
-                    <option value="s1">Subtasks</option>
-                    <option value="s2">Subtask 1</option>
-                    <option value="STasks">Subtask 2</option>
-
-                </select>
+            <i class="fa fa-caret-up "></i>
+          </div>
+          <div class="task12 hidden">
+            <div>Task 1</div>
+            <div>Task 2</div>
+            <div class="subtaskcontainer">
+              <div class="flex">
+                <span> Subtasks </span>
+                <i class="fa fa-caret-up"></i>
+              </div>
+              <div class="subtask">
+                <div>Subtask1</div>
+                <div>Subtask2</div>
+              </div>
             </div>
-            <div class="progress">
-                <div class="pro"><i class=" fa fa-light fa-chart-column"></i>
-                    Progress</div>
-                <div class="set"><i class=" fa fa-light fa-gear"></i> Setting</div>
-            </div>
-        </main>
-        <footer>
-            <i class=" fa fa-thin fa-sun"></i>
-        </footer>
+          </div>
+        </div>
+        <div class="activity">
+          <i class="fa fa-light fa-chart-column"></i> Progress
+        </div>
+        <div class="activity"><i class="fa fa-light fa-gear"></i> Setting</div>
+      </main>
+      <footer>
+        <i class="fa fa-thin fa-sun"></i>
+      </footer>
     </div>
-</body>
-
+  </body>
 </html>
